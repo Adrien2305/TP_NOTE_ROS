@@ -1,10 +1,8 @@
 # TP NOTE ROS
-## ADRIEN ESTHER
-## DATE : 21/06/2022
+# ADRIEN ESTHER
 
 | Exercise | 1 |
-| ------ | ------ |
-`Run the code`
+`How to run the code`
 ```sh
 roscore
 ```
@@ -12,23 +10,29 @@ roscore
 source ros_ws/devel/setup.bash
 ```
 ```sh
-rosrun marker_visualizer publish_marker.py
+rosrun marker_visualiser publish_marker.py /visualization_marker=:/marker_test
 ```
+```sh
+rosrun marker_visualizer publish_marker.py /
+```
+
+
 | Exercise | 2 |
-| ------ | ------ |
-`Run the code`
+`How to run the code`
 ```sh
 roscore
 ```
 ```sh
 source ros_ws/devel/setup.bash
+```
+```sh
+rosrun marker_visualiser publish_marker_array.py /visualization_marker=:/space_delimiter
 ```
 ```sh
 rosrun marker_visualizer publish_marker_array.py
 ```
 | Exercise | 3 |
-| ------ | ------ |
-`Run the code`
+`How to run the code`
 ```sh
 roscore
 ```
@@ -39,8 +43,7 @@ source ros_ws/devel/setup.bash
 rosrun marker_visualizer randomwalk.py
 ```
 | Exercise | 4 |
-| ------ | ------ |
-`Run the code`
+`How to run the code`
 ```sh
 roscore
 ```
